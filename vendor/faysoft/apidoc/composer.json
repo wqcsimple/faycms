@@ -1,0 +1,20 @@
+{
+    "name": "faysoft/apidoc",
+    "type": "library",
+    "description": "Faycms文档系统",
+    "keywords": ["faysoft", "faycms", "apidoc", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fayfox",
+            "email": "admin@fayfox.com",
+            "homepage": "http://www.fayfox.com"
+        }
+    ],
+    "require": {
+        "faysoft/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {"apidoc\\": ""}
+    }
+}

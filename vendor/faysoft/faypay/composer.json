@@ -1,0 +1,20 @@
+{
+    "name": "faysoft/faypay",
+    "type": "library",
+    "description": "Faycms支付模块",
+    "keywords": ["faysoft", "faycms", "faypay"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fayfox",
+            "email": "admin@fayfox.com",
+            "homepage": "http://www.fayfox.com"
+        }
+    ],
+    "require": {
+        "faysoft/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {"faypay\\": ""}
+    }
+}

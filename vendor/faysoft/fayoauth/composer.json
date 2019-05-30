@@ -1,0 +1,20 @@
+{
+    "name": "faysoft/fayoauth",
+    "type": "library",
+    "description": "Faycms第三方登录模块",
+    "keywords": ["faysoft", "faycms", "fayoauth", "OAuth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fayfox",
+            "email": "admin@fayfox.com",
+            "homepage": "http://www.fayfox.com"
+        }
+    ],
+    "require": {
+        "faysoft/cms": "*"
+    },
+    "autoload": {
+        "psr-4": {"fayoauth\\": ""}
+    }
+}

@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule !^(assets|uploads|apps|favicon\.ico|robots\.txt|baidu_verify_GseeZp4PWv\.html) index.php

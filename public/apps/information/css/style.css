@@ -1,0 +1,620 @@
+.red{
+    color:#ec4451;
+}
+.blue{
+    color:#00baff;
+}
+.login_form_wrap{
+    background:#00baff;
+    width:100%;
+    padding-top:0;
+    padding-bottom:70px;
+}
+
+.userLogin .title{
+    text-align: center;
+    font-size:30px;
+    padding-top: 50px;
+    line-height:40px;
+    color:#fff;
+}
+.userLogin .title_top{
+    font-size:14px;
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #4a4a4a;
+    margin-bottom:15px;
+}
+
+.userLogin .title p{
+    font-size:14px;
+}
+.userLogin .form{
+    width:330px;
+    height:auto;
+    background:#fff;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top:20px;
+    padding:20px 30px 50px;
+
+}
+.userLogin .form .inputText{
+    width:333px;
+    margin: 0 auto;
+    padding:10px 0;
+    position:relative;
+    font-size:14px;
+}
+.userLogin .form .inputText.error{
+    color:red;
+}
+
+
+ .inputText em.error{
+    color:red;
+    font-size:12px;
+    position:relative;
+    top:8px;
+}
+ .inputText label.error{
+    color:red;
+    font-size:12px;
+    position:relative;
+    top:8px;
+}
+
+
+ .form label.error{
+    display:block;
+    color:red;
+    font-size:12px;
+    position:relative;
+    top:8px;
+}
+
+.userLogin .form .inp{
+    width:333px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #a0a0a0;
+    background:#efefef;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+.userLogin .form .inp2{
+    width:180px;
+}
+.userLogin .form .imgCheck{
+    width:140px;
+    height:40px;
+    display:block;
+    position:absolute;
+    top:10px;
+    right:0;
+    background:red;
+}
+
+.userLogin .form .changeBtn{
+    width:140px;
+    height:40px;
+    display:block;
+    position:absolute;
+    top:10px;
+    right:0;
+    background:red;
+}
+.userLogin .form .btn{
+    width:333px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #00baff;
+    background:#00baff;
+    color:#fff;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+
+.register_form{
+    width:1000px;
+    margin:0 auto;
+}
+
+.register_form .title{
+    text-align: center;
+    font-size:30px;
+    padding: 30px;
+    line-height:40px;
+    color:#4a4a4a;
+}
+.register_form .title p{
+    font-size:14px;
+}
+.register_form .form{
+    width:900px;
+    margin:0 auto;
+    background:#fff;
+    padding:60px;
+}
+.register_form  .inputText{
+    height:40px;
+    line-height:40px;
+    padding:10px 0 10px 100px;
+    font-size:14px;
+}
+.register_form  .inputText span{
+    /*font-size:20px;*/
+    /*font-weight: bold;*/
+    /*position:relative;*/
+    /*top:4px;*/
+    /*right:3px;*/
+}
+.register_form  .inputText label{
+    display: inline-block;
+    width:80px;     text-align:justify;
+    text-align-last:justify;
+}
+.register_form  .inputText .inp{
+    width:330px;
+    height:40px;
+    line-height:40px;
+    border-radius: 5px;
+    border:1px solid #4a4a4a;
+    text-indent: 10px;
+    margin-left:5px;
+    background:#efefef;
+}
+.register_form  .inputText .btn{
+    width:195px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #00baff;
+    background:#00baff;
+    color:#fff;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+
+
+.header{
+    width:100%;
+    height:70px;
+    line-height:70px;
+    background:#00baff;
+}
+
+.header .logo{
+    color:#fff;
+    font-size:24px;
+}
+.header .btns{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+}
+.header .btns .down{
+    position:absolute;
+    top:0;
+    right:0;
+    padding-top:60px;
+}
+.header .btns .down li{
+    width:130px;
+    height:40px;
+    line-height:40px;
+    background:#fff;
+    color:#4a4a4a;
+    font-size:14px;
+}
+.sidebar{
+    width:270px;
+    background:#fff;
+    margin-top:20px;
+}
+.sidebar ul{
+    width:100%;
+}
+.sidebar li{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    text-indent:50px;
+    font-size:14px;
+    border-left:2px solid #fff;
+}
+.sidebar li.active{
+    border-left:2px solid #00baff;
+}
+.content{
+    margin-top:20px;
+    width:910px;
+    padding-bottom:100px;
+    background:#fff;
+}
+
+
+.footer{
+    text-align: center;
+    padding:50px 0;
+
+}
+.footer li{
+    display:inline-block;
+    font-size:14px;
+    padding:0 10px;
+}
+
+
+
+/*用户中心*/
+.userCenter{
+    margin-top:30px;
+}
+
+.userCenterLeft{
+    width:270px;
+    background:#fff;
+    text-align: center;
+    padding:40px 0;
+    line-height:20px;
+    border-radius: 5px;
+}
+
+.userCenterLeft .avatar{
+    border-radius: 90px;
+
+}
+
+.userCenterLeft a{
+    color:#9f9f9f;
+    text-decoration: underline;
+}
+.userCenterLeft .num{
+    line-height:26px;
+    font-size:14px;
+    margin-top:20px;
+}
+
+
+.userCenterRight{
+    width:910px;
+}
+
+.userCenterRight .nav_top{
+    width:100%;
+    background:#fff;
+    line-height:20px;
+    border-radius: 5px;
+
+}
+.userCenterRight .nav_top .title{
+    height:60px;
+    line-height:60px;
+    border-bottom: 1px solid #4a4a4a;
+}
+.userCenterRight .nav_top .title span{
+    display:inline-block;
+    height:58px;
+    line-height:59px;
+    border-bottom: 2px solid #4a4a4a;
+    margin-left:30px;
+    font-size:16px;
+}
+.userCenterRight .nav_top .cat_nav{
+    height:46px;
+    line-height:46px;
+    font-size:14px;
+    padding:0 30px;
+}
+.userCenterRight .nav_top .cat_nav li{
+    padding:0 17px;
+    float:left;
+}
+
+.userCenterRight .nav_top .cat_nav li.t{
+    color:#cacaca;
+}
+.userCenterRight .nav_top .cat_nav li.active{
+    color:#00baff;
+}
+
+
+
+.info_form{
+
+}
+.info_form .inputText{
+    height:30px;
+    line-height:30px;
+    padding:7px 0 7px 100px;
+}
+.info_form .inputText .inp{
+    height:30px;
+    line-height:30px;
+}
+.info_form .inputText .inp2{
+    width:105px;
+}
+.info_form .inputText label{
+    width:120px;
+    text-align: right;
+    text-align-last:end;
+}
+
+.info_form label.error{
+    top:-2px;
+}
+
+.info_form em.error {
+    top: 0px;
+}
+
+.info_form .inputText span{
+}
+
+
+
+.forgetPwd{
+    width:800px;
+    margin:0 auto;
+    padding:50px;
+
+}
+.forgetPwd .top{
+    padding-bottom: 20px;
+}
+.forgetPwd .top .title{
+    font-size:26px;
+}
+.forgetPwd .top .title span{
+    font-size:14px;
+    margin-top:5px;
+}
+.formForgetPwd{
+    background:#fff;
+}
+.formForgetPwd .title{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background:#00baff;
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+}
+
+
+.formForgetPwd .method{
+    width:200px;
+    margin:0 auto;
+    color:#dcdcdc;
+    padding:100px;
+    text-align: center;
+}
+
+.formForgetPwd .method a{
+    display: block;
+    width:200px;
+    height:40px;
+    line-height:40px;
+    border-radius: 40px;
+    background:#00baff;
+    color:#fff;
+    font-size:16px;
+}
+.formForgetPwd .method a img{
+    position:relative;
+    right:4px;
+    top:4px;
+}
+
+.findPwdByEmail{
+    width:340px;
+    margin:0 auto;
+    padding:50px;
+}
+
+.findPwdByEmail .t_title{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    border-bottom: 1px solid #a0a0a0;
+}
+.findPwdByEmail .t_title span{
+    display:inline-block;
+    height:38px;
+    line-height:40px;
+    border-bottom: 2px solid #000;
+    color:#a0a0a0;
+    font-size:16px;
+}
+
+
+.findPwdByEmail  .inputText{
+    width:333px;
+    margin: 0 auto;
+    padding:15px 0;
+    position:relative;
+    font-size:14px;
+}
+
+.findPwdByEmail  .inp{
+    width:333px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #a0a0a0;
+    background:#efefef;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+.findPwdByEmail  .btn{
+    width:333px;
+    height:40px;
+    line-height:40px;
+    border:1px solid #00baff;
+    background:#00baff;
+    color:#fff;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+.findPwdByEmail .notice{
+    text-align: center;
+    color:#a0a0a0;
+    line-height:25px;
+}
+
+
+.findPwdByEmail button{
+    border: none;
+    border-bottom:1px solid #00baff;
+    color:#00baff;
+    background: none;
+    outline: none;
+}
+
+
+.set_pwd_success div{
+    display:inline-block;
+    position:relative;
+    left:10px;
+    top:-40px;
+}
+
+.set_pwd_success p{
+    font-size:24px;
+    font-weight: 100;    color:#00baff;
+
+}
+
+
+.set_pwd_success a{
+    float:right;
+    margin-top:10px;
+    font-size:14px;
+    text-decoration: underline;
+    color:#00baff;
+}
+
+.info-list{
+    border-radius: 5px;
+    background:#fff;padding:20px;
+}
+
+.tableList{
+    border:0;
+    width:100%;
+    margin:0 auto;
+    background:#fff;
+}
+.tableList td{
+    line-height:30px;
+    height:30px;
+    font-size:14px;
+    text-indent:20px;
+}
+.tableList tbody{
+    padding:20px;
+}
+.tableList tbody td{
+    font-size:12px;
+}
+
+.tableList tr{
+    border-bottom:1px solid #E6E6E6;
+}
+
+
+.pager {
+    font-size: 14px;
+    padding: 20px;
+    color: #666;
+    text-align: right;
+    margin-right:50px;
+}
+
+.pager li {
+    display: inline-block;
+    margin-left: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.pager a {
+    padding: 2px 10px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+
+.pager span.this-page {
+    background: #619e15;
+    color: #fff
+}
+
+.pager a {
+    background: #bcbcbc;
+    color: #fff
+}
+
+.pager a.action,.pager a:hover {
+    text-decoration: none;
+    background: #66b2f3;
+    color: #fff
+}
+
+
+
+.header .search_form{
+    width:400px;
+    height:50px;
+    line-height: 50px;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.header  .search_form input{
+    width:400px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 30px;
+    border:none;
+    outline: none;
+    background:#fff;text-indent: 35px;
+    border:1px solid #868686;
+}
+
+.header  .search_form .btn{
+    width:90px;
+    height:30px;
+    line-height:30px;
+    border-radius: 30px;
+    background:#00baff;
+    color:#fff;
+    position: absolute;
+    top:10px;
+    right:-1px;
+    text-indent: 0;
+    text-align: center;
+    border:1px solid #fff;
+}

@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+html, body{position:relative;height:100%;font-family:"黑体"}
+a{text-decoration:none}
+.swiper-container{width:100%;height:100%}
+.swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
+.swiper-slide{background-size:100% 100%;background-repeat:no-repeat;background-position:center center}
+
+.layer{position:absolute}
+.layer img{width:100%;height:100%}
+
+.weixin-share{position:fixed;top:0;left:0;z-index:9999;height:100%;width:100%;background-color:rgba(0, 0, 0, 0.7);display:none}
+.weixin-share img{width:100%;margin-top:10px}
+
+.mw225{max-width:225px}
+
+body .fancybox-close-small{right:44px;top:42px}
+body .fancybox-close-small:after{font-size:30px;background-color:transparent;color:#555}
+body .fancybox-close-small:hover:after{background-color:transparent;color:#555}
+body .fancybox-slide>*{background-color:transparent}
+body .fancybox-container--ready .fancybox-bg{opacity:0.2}
+body .fancybox-content{width:auto}
+
+@keyframes leftflip {
+    0%,30% {opacity: 0;transform: translate(-10,0px);}
+    60% {opacity: 1;transform: translate(0,0);}
+    100% {opacity: 0;transform: translate(8px,0);}
+}
+.u-arrow-right{width:14px;height:24px;z-index:150;top:50%;margin-top:-10%;right:5px;transform:rotate(180deg);}
+.u-arrow-right img{position:absolute;top:50%;left:50%;margin:-7px 0 0 -1px;width:14px;height:24px;background-position:0 -82px;-webkit-animation:leftflip 1.5s infinite ease-in-out;-moz-animation:leftflip 1.5s infinite ease-in-out;animation:leftflip 1.5s infinite ease-in-out}
+
+.fn-block{position:absolute;top:0;left:0;width:100%;height:100%;cursor:wait;z-index:500;background:url(images/bgblackp10.png) repeat scroll 0 0 transparent}
+.fn-block-loading-img{position:absolute;top:50%;left:50%;margin:-22px 0 0 -22px;z-index:501;cursor:wait}
+
+#audio_btn{position:absolute;right:10px;top:10px;z-index:200;display:none;width:50px;height:50px;background-repeat:no-repeat;}
+.loading_background{background-image:url(images/music_loading.gif);background-size:30px 30px;opacity:0.5;background-position:center center;}
+.loading_yinfu{position:absolute;left:10px;top:10px;width:30px;height:30px;background-image:url(images/yinfu.png);background-repeat:no-repeat;background-position:center center;}
+.play_yinfu{background-image:url(images/music.gif);background-repeat:no-repeat;background-position:center center;background-size:60px 60px;}
+#yinfu{position:absolute;left:10px;top:10px;width:30px;height:30px;background-size:100% 100%;background-image:url(images/music_off.png);}
+.rotate{-webkit-animation:rotating 1.2s linear infinite;-moz-animation:rotating 1.2s linear infinite;-o-animation:rotating 1.2s linear infinite;animation:rotating 1.2s linear infinite;}
+@-webkit-keyframes rotating{from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@keyframes rotating{from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
+@-moz-keyframes rotating{from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+.off{background-image:url(images/music_off.png);background-size:30px 30px; background-repeat:no-repeat;background-position:center center;}
+
+#rank-dialog .dialog-content{padding:0}
+#rank-dialog .rank-description img{max-width:100%}
+#rank-dialog .fancybox-close-small{top:41px}
+
+#attendance-dialog{text-align:center;background-image:url(../images/arm/caozhi-bg.png);background-size:100% 100%;padding:20px 0}
+#attendance-dialog .nickname,#attendance-dialog .sign-up-days{margin-bottom:14px}
+#attendance-dialog .attendance-count{margin-bottom:35px}
+
+#post-dialog{width:230px;height:350px;text-align:center;background-image:url(../images/arm/caozhi-bg.png);background-size:100% 100%;padding:20px 0}
+#post-dialog .dialog-content{height:290px;overflow:auto}
+#post-dialog .post-title{margin-top:-20px;margin-bottom:10px;font-size:18px}
+#post-dialog .post-content{text-align:left}
+
+#pay-success-dialog{text-align:center;background-image:url(../images/arm/caozhi-bg.png);background-size:100% 100%;padding:20px 0;width:200px}
+#pay-success-dialog .nickname,#pay-success-dialog .sign-up-days{margin-bottom:14px}
+#pay-success-dialog .attendance-count{margin-bottom:35px}

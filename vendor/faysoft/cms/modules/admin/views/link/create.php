@@ -1,0 +1,10 @@
+<?php echo F::form()->open()?>
+    <?php echo $this->renderPartial('_edit_panel', array(
+        'cats'=>$cats,
+    ))?>
+    <div class="form-field">
+        <?php echo F::form()->submitLink('添加链接', array(
+            'class'=>'btn',
+        ));?>
+    </div>
+<?php echo F::form()->close()?>
