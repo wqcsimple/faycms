@@ -149,9 +149,9 @@ class WidgetController extends AdminController{
             }
             $action = StringHelper::hyphen2case($this->input->get('action', 'trim', 'index'), false);
             if(method_exists($widget_obj, $action)){
-                $widget_obj->{$action}($this->input->get());
+                return $widget_obj->{$action}($this->input->get());
             }else if(method_exists($widget_obj, $action.'Action')){
-                $widget_obj->{$action.'Action'}($this->input->get());
+                return $widget_obj->{$action.'Action'}($this->input->get());
             }else{
                 throw new NotFoundHttpException('Widget方法不存在');
             }
