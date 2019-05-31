@@ -15,7 +15,6 @@ body {
 img, div, input {
 	behavior: url("iepngfix.htc")
 }
-;
 .white {
 	color:#fff
 }
@@ -291,7 +290,7 @@ img {
 	min-width:1180px;
 	height:600px;
 	overflow:hidden;
-	background:url(../images/loading.gif) 50% no-repeat;
+	/*background:url(../images/loading.gif) 50% no-repeat;*/
 }
 .slides {
 	position:relative;
@@ -322,7 +321,7 @@ img {
 	height:14px;
 	line-height:40px;
 	overflow:hidden;
-	background:url(../images/dot.png) right 0 no-repeat;
+	/*background:url(../images/dot.png) right 0 no-repeat;*/
 	cursor:pointer;
 }
 .flex-control-nav .flex-active {
@@ -345,11 +344,11 @@ img {
 }
 .flex-direction-nav li a.flex-prev {
 	left:40px;
-	background:url(../images/prev.png) center center no-repeat;
+	/*background:url(../images/prev.png) center center no-repeat;*/
 }
 .flex-direction-nav li a.flex-next {
 	right:40px;
-	background:url(../images/next.png) center center no-repeat;
+	/*background:url(../images/next.png) center center no-repeat;*/
 }
 /*banner样式开始*/
 #banner {
@@ -532,7 +531,7 @@ img {
 	height:178px;
 	line-height:18px;
 	padding-top:10px;
-	background:url(../images/weixin_kuang.png) no-repeat;
+	/*background:url(../images/weixin_kuang.png) no-repeat;*/
 	text-align:center;
 	position:absolute;
 	right:0px;
@@ -595,7 +594,7 @@ img {
 	line-height:20px;
 	cursor:pointer;
 	color:#fff;
-	background:url(../images/btn_out.jpg) left no-repeat;
+	/*background:url(../images/btn_out.jpg) left no-repeat;*/
 	list-style:none;
 	overflow:hidden;
 	float:left
@@ -604,7 +603,7 @@ img {
 	width:100%;
 	min-width:1180px;
 	height:429px;
-	background:url(../images/mid_bg.jpg) no-repeat;
+	/*background:url(../images/mid_bg.jpg) no-repeat;*/
 	overflow:hidden;
 	margin:0 auto
 }
@@ -637,29 +636,29 @@ img {
 	color:#53b115;
 }
 .k_list .k1_out {
-	background:url(../images/k1_out.jpg) no-repeat;
+	/*background:url(../images/k1_out.jpg) no-repeat;*/
 	color:#1557b1;
 }
 .b15 {
 	padding-bottom:15px;
 }
 .k_list .k2_out {
-	background:url(../images/k2_out.jpg) no-repeat;
+	/*background:url(../images/k2_out.jpg) no-repeat;*/
 	color:#1557b1;
 }
 .k_list .k3_out {
-	background:url(../images/k3_out.jpg) no-repeat;
+	/*background:url(../images/k3_out.jpg) no-repeat;*/
 	color:#1557b1;
 }
 .k_list .k4_out {
-	background:url(../images/k4_out.jpg) no-repeat;
+	/*background:url(../images/k4_out.jpg) no-repeat;*/
 	color:#1557b1;
 }
 .i_gl {
 	width:100%;
 	min-width:1180px;
 	height:28px;
-	background:url(../images/i_gl.jpg) center no-repeat;
+	/*background:url(../images/i_gl.jpg) center no-repeat;*/
 	overflow:hidden;
 	margin:0 auto
 }
@@ -914,7 +913,7 @@ img {
 	line-height:60px;
 	cursor:pointer;
 	color:#fff;
-	background:url(../images/btn_out.jpg) left no-repeat;
+	/*background:url(../images/btn_out.jpg) left no-repeat;*/
 	list-style:none;
 	overflow:hidden;
 	float:left
@@ -1086,7 +1085,7 @@ img {
 	line-height:20px;
 	text-align:center;
 	margin-top:18px;
-	background:url(../images/btn_out.jpg) left no-repeat;
+	/*background:url(../images/btn_out.jpg) left no-repeat;*/
 	cursor:pointer;
 	color:#fff;
 	list-style:none;
@@ -1139,40 +1138,40 @@ img {
 	float:left
 }
 .gonglue_tip .t01 a {
-	background:url(../images/t01_out.jpg) no-repeat;
+	/*background:url(../images/t01_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t01 a:hover {
-	background:url(../images/t01_over.jpg) no-repeat;
+	/*background:url(../images/t01_over.jpg) no-repeat;*/
 }
 .gonglue_tip .t02 a {
-	background:url(../images/t02_out.jpg) no-repeat;
+	/*background:url(../images/t02_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t02 a:hover {
-	background:url(../images/t02_over.jpg) no-repeat;
+	/*background:url(../images/t02_over.jpg) no-repeat;*/
 }
 .gonglue_tip .t03 a {
-	background:url(../images/t03_out.jpg) no-repeat;
+	/*background:url(../images/t03_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t03 a:hover {
-	background:url(../images/t03_over.jpg) no-repeat;
+	/*background:url(../images/t03_over.jpg) no-repeat;*/
 }
 .gonglue_tip .t04 a {
-	background:url(../images/t04_out.jpg) no-repeat;
+	/*background:url(../images/t04_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t04 a:hover {
-	background:url(../images/t04_over.jpg) no-repeat;
+	/*background:url(../images/t04_over.jpg) no-repeat;*/
 }
 .gonglue_tip .t05 a {
-	background:url(../images/t05_out.jpg) no-repeat;
+	/*background:url(../images/t05_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t05 a:hover {
-	background:url(../images/t05_over.jpg) no-repeat;
+	/*background:url(../images/t05_over.jpg) no-repeat;*/
 }
 .gonglue_tip .t06 a {
-	background:url(../images/t06_out.jpg) no-repeat;
+	/*background:url(../images/t06_out.jpg) no-repeat;*/
 }
 .gonglue_tip .t06 a:hover {
-	background:url(../images/t06_over.jpg) no-repeat;
+	/*background:url(../images/t06_over.jpg) no-repeat;*/
 }
 .contact_tip {
 	width:522px;
@@ -1220,34 +1219,34 @@ img {
 	float:left
 }
 .contact_tip .c01 a {
-	background:url(../images/c01_out.jpg) no-repeat;
+	/*background:url(../images/c01_out.jpg) no-repeat;*/
 }
 .contact_tip .c01 a:hover {
-	background:url(../images/c01_over.jpg) no-repeat;
+	/*background:url(../images/c01_over.jpg) no-repeat;*/
 }
 .contact_tip .c02 a {
-	background:url(../images/c02_out.jpg) no-repeat;
+	/*background:url(../images/c02_out.jpg) no-repeat;*/
 }
 .contact_tip .c02 a:hover {
-	background:url(../images/c02_over.jpg) no-repeat;
+	/*background:url(../images/c02_over.jpg) no-repeat;*/
 }
 .contact_tip .c03 a {
-	background:url(../images/c03_out.jpg) no-repeat;
+	/*background:url(../images/c03_out.jpg) no-repeat;*/
 }
 .contact_tip .c03 a:hover {
-	background:url(../images/c03_over.jpg) no-repeat;
+	/*background:url(../images/c03_over.jpg) no-repeat;*/
 }
 .contact_tip .c04 a {
-	background:url(../images/c04_out.jpg) no-repeat;
+	/*background:url(../images/c04_out.jpg) no-repeat;*/
 }
 .contact_tip .c04 a:hover {
-	background:url(../images/c04_over.jpg) no-repeat;
+	/*background:url(../images/c04_over.jpg) no-repeat;*/
 }
 .contact_tip .c05 a {
-	background:url(../images/c05_out.jpg) no-repeat;
+	/*background:url(../images/c05_out.jpg) no-repeat;*/
 }
 .contact_tip .c05 a:hover {
-	background:url(../images/c05_over.jpg) no-repeat;
+	/*background:url(../images/c05_over.jpg) no-repeat;*/
 }
 /*电子商务页面样式*/
 .w_bg {

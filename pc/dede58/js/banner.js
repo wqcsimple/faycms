@@ -1,4 +1,4 @@
-jQuery(function ($) {
+$(function ($) {
     if ($(".slide-pic").length > 0) {
         var defaultOpts = { interval: 5000, fadeInTime: 300, fadeOutTime: 200 };
         var _titles = $("ul.slide-txt li");
