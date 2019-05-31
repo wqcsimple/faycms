@@ -8,6 +8,7 @@
 
 namespace demo\library;
 
+use cms\services\OptionService;
 use fay\core\Controller;
 
 class FrontController extends Controller
@@ -21,5 +22,16 @@ class FrontController extends Controller
 
         //设置当前用户id
         $this->current_user = \F::session()->get('user.id', 0);
+
+        $this->layout->assign(array(
+            'title' => OptionService::get('site:seo_index_title'),
+            'keywords' => OptionService::get('site:seo_index_keywords'),
+            'description' => OptionService::get('site:seo_index_description'),
+            'current_directory' => "home"
+        ));
+    }
+    
+    public function index() {
+        return $this->view->render();
     }
 }
