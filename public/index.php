@@ -11,7 +11,7 @@ define('BASEPATH', realpath(__DIR__).DIRECTORY_SEPARATOR);//定义程序根目�
  * Apache定义环境变量语法：SetEnv FAYCMS_APPLICATION doc
  * Nginx定义环境变量语法：fastcgi_param FAYCMS_APPLICATION 'doc';
  */
-define('APPLICATION', isset($_COOKIE['__app']) ? $_COOKIE['__app'] : 'demo');
+define('APPLICATION', isset($_COOKIE['__app']) ? $_COOKIE['__app'] : 'legu');
 
 require __DIR__.'/_init.php';
 
