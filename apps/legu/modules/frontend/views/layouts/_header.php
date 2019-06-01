@@ -127,7 +127,7 @@ $cats = CategoryService::service()->getTree('_system_post');
                     <?php
                     }
                     ?>
-                    <li class="slash">/</li>
+<!--                    <li class="slash">/</li>-->
                     <li><a href="<?= $this->url('page/contact') ?>" class="mn-has-sub <?= $root_category_id === 'contact' ? 'active' : '' ?>">联系我们</a>
                     </li>
 
