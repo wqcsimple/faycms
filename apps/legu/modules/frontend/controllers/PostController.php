@@ -42,7 +42,8 @@ class PostController extends FrontController
         PostMetaTable::model()->incr($post_id, array("views"), 1);
 
         $this->layout->assign(array(
-            'title' => $post['title']
+            'title' => $post['title'],
+            'root_category_id' => $post['cat_id'],
         ));
         
         $post['author'] = '';
